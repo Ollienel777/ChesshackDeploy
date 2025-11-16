@@ -1,0 +1,22 @@
+
+
+
+# Ignore Python virtual environment
+.venv/
+venv/
+
+*.dll
+*.so
+*.dylib
+
+*.pt
+*.pth
+
+*.exe
+
+__pycache__/
+
+
+.env.local
+.env
+devtools
