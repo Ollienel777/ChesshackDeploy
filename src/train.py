@@ -13,7 +13,7 @@ from nn_model import board_to_tensor, ValueNet
 SRC_DIR = Path(__file__).resolve().parent              # .../my-chesshacks-bot/src
 ROOT_DIR = SRC_DIR.parent                              # .../my-chesshacks-bot
 DATA_CSV = ROOT_DIR / "data" / "sf_positions.csv"
-OUT_PATH = SRC_DIR / "valuenet.pt"                     # ./valuenet.pt
+OUT_PATH = SRC_DIR / "valuenet.pt"                     # ./valuenet.pt NN
 
 
 class PositionDataset(Dataset):
